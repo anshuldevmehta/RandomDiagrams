@@ -1,1 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2022-12-20T19:09:02.030Z" agent="5.0 (Windows)" etag="hNtcsg6pe-3H6tcaRBbM" version="20.7.4" type="github"><diagram id="WZwGYyinvyc1mi8ieXVD" name="Page-1">7VjbbuIwEP0apN2HolwIl8dCu7uVFlqJSm0f3cQk3poYOU6Bfv2OEzshcUCUQulK+xTP+DLj4zPjcVruaL76ydEiGrMA05ZjBauWe9VyHNvyLPhIzTrXeL1urgg5CdSgUjElb1jPVNqUBDipDBSMUUEWVaXP4hj7oqJDnLNlddiM0arVBQqxoZj6iJraBxKIKNf29bak/hcmYaQt25bqmSM9WCmSCAVsuaFyr1vuiDMm8tZ8NcJUgqdxyef92NJbOMZxLPaZ8DQavk2cYDge+L3BMrjt8JvxhVrlFdFUbfiOJUSQVwzaSTp/xhwaU8xfiY/VPsRag8NZGgdYrm+13OEyIgJPF8iXvUugA+giMacg2dBUljAXeLV1C3YBDDAKszkWfA1D1ISuBnet5Vxclidja7ijjVPR45AiQ1isXOIFDQXZO+BzDPgmOERfFj67Cp/dPzd+rkk/zoIU4vjrouZa50atY6A2Qn50fqSKVKeQ6jQg5VkNSBXwHR2qrgEKDiC/K5FxEbGQxYhel9phFbZyzG/GFgqsP1iItbqsUCpYE5TS0G4gwS+Wch/v8N9rBpxjmmeZynXXAJ6aesdILLbn0X4NfoF4iIWaVDuBwovDD8Uz+HvLgb+J4EgwmTC/jVEiMP++g9H25zC6UwXKO3fo9wzoTILHwaUsfEDyKUoS4ldhqdIbgODrR9WVCU+ypz3Q4tVqc+TVWksrIh432vmsnqfEcpYU1ptL3GFOAAy4GXPlEaNFF4gZfd8fVZU0ZR6q1n0w+NxBlVPOoEaWfJtG9BkLdWrkLMj6SWHcP5CLCfglDqGo1fY2SWrvS9G27XUrNLWs/m6egnBCmnb+BZo6NZra9Zy2L03dGk1t+3NpOmigaZcCWMMFNELZeOBwkcgTkUUUAJekVG6AzeSJwwUiUU9S38dJMktpRnG8yF6i8uUpa6+2XhNcLJY17KgyDaYjkSYSgpnIXgimEZqtLHd6udfSNngAuHbRXN6CWd89R3GCfEFYDH03sPORMQbeKLl6kplUXcqEVVfkNp953YudnjntQ926yD41Fxoc2mne3ct88ew4wob3nVbLlVCliGoahIKIveARo0wmoZjFsjqdEUprqgRKIBKHoPBK6T4rVi+cbaU/A8rNaJaDIxIEODby7hHqJ9utxb6WNwuopiRWZLGjV1A6+3w0H8wQoSnHJ0wG0gIcxgF5YMJEJAmhnOIsg+UZ+S/niGEzsZwoiBtN/Y/gD0WwW/9ndMoIBrH8H5rf/+VfZff6Lw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2023-02-28T07:48:18.472Z" agent="5.0 (Windows)" etag="5PdWM8s_y4d8bNeTzpQD" version="20.8.20" type="github">
+  <diagram id="WZwGYyinvyc1mi8ieXVD" name="Page-1">
+    <mxGraphModel dx="794" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YCBzN2dBM9c79wdO4rIM-1" value="Positive Number Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="600" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YCBzN2dBM9c79wdO4rIM-2" value="Negative Number Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YCBzN2dBM9c79wdO4rIM-3" value="Product Service" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YCBzN2dBM9c79wdO4rIM-4" value="Cache" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="220" y="400" width="500" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="YCBzN2dBM9c79wdO4rIM-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="YCBzN2dBM9c79wdO4rIM-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCBzN2dBM9c79wdO4rIM-5" value="Orchestrator (Master)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="YCBzN2dBM9c79wdO4rIM-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=0.9;entryDx=0;entryDy=0;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="YCBzN2dBM9c79wdO4rIM-1" target="YCBzN2dBM9c79wdO4rIM-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="290" as="sourcePoint" />
+            <mxPoint x="440" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCBzN2dBM9c79wdO4rIM-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.156;exitY=0.008;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="YCBzN2dBM9c79wdO4rIM-4" target="YCBzN2dBM9c79wdO4rIM-5" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="160" as="sourcePoint" />
+            <mxPoint x="340" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YCBzN2dBM9c79wdO4rIM-9" value="&lt;p&gt;Write the result of every successful step to cache.&lt;/p&gt;&lt;p&gt;Cache status after every successfull call:&lt;/p&gt;&lt;p&gt;1. &amp;lt;Transaction ID, &amp;lt;Num, Null&amp;gt; &amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;2.&amp;lt;Transaction ID, &amp;lt;Num,-Num&amp;gt;&amp;gt;&lt;/p&gt;&lt;p&gt;3.&amp;lt;Transaction ID, Product&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="130" y="130" width="150" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="YCBzN2dBM9c79wdO4rIM-10" value="&lt;p&gt;Write the result of every failure step to cache.&lt;/p&gt;&lt;p&gt;Cache status after every failed call:&lt;/p&gt;&lt;p&gt;1. Nothing to roll back&lt;br&gt;&lt;/p&gt;&lt;p&gt;2.&amp;lt;Transaction ID, &amp;lt;Num,-Null&amp;gt;&amp;gt;&lt;/p&gt;&lt;p&gt;3.&amp;lt;Transaction ID, Null&amp;gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="310" y="130" width="150" height="250" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
