@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T14:21:28.434Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="_W5j4iRmhb1_BPJTa9jD" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T14:30:35.543Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/112.0" etag="Ty05OR74OzbrcqJgsTxH" version="21.2.9" type="github">
   <diagram name="Page-1" id="l-FEgSQEtb5y5zVLfHLs">
     <mxGraphModel dx="794" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -6,6 +6,9 @@
         <mxCell id="1" parent="0" />
         <mxCell id="m_QjOIqGxegdPOi5LpQa-1" value="Middleware Services (Spring Boot/Docker/Kubernetes)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="262.5" y="100" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="-6_Z-7z1-XLh-xvznc7J-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m_QjOIqGxegdPOi5LpQa-2" target="m_QjOIqGxegdPOi5LpQa-5">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="m_QjOIqGxegdPOi5LpQa-2" value="System POD" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="340" y="130" width="95" height="20" as="geometry" />
