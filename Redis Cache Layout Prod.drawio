@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-09T18:14:23.628Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="9vv4k6IXj9qOuIhYlmkA" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-09T19:12:15.975Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="O2Q83PtbNCvbLUTDNM_8" version="21.6.6" type="github">
   <diagram name="Page-1" id="Q7LPxqIHuv_cpELlYRCS">
-    <mxGraphModel dx="1034" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -66,6 +66,9 @@
         </mxCell>
         <mxCell id="8A6AkkZrUqPYuzKoGpY2-3" value="Replication" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="680" y="280" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Niq853-lt7dc414jjwlL-1" value="&lt;h1&gt;Production Setup - Redis&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="110" y="-90" width="730" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
