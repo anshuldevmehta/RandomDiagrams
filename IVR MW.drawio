@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T08:15:46.627Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="pZShWeWdtxETBiOjagD5" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T09:52:11.457Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="9EuKmKMjGFGBTQ_6-3hN" version="21.6.7" type="github">
   <diagram name="Page-1" id="l-FEgSQEtb5y5zVLfHLs">
     <mxGraphModel dx="1034" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -69,9 +69,6 @@
         </mxCell>
         <mxCell id="m_QjOIqGxegdPOi5LpQa-22" value="MIRATECH MIDDLEWARE TEAM OWNS THIS " style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" parent="1" vertex="1">
           <mxGeometry x="315" y="20" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="IGucgwYbSl0GbBNP40g_-1" value="REDIS" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="280" y="400" width="130" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
