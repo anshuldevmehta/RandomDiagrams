@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-11T14:35:54.791Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="3OfV5T3woUiYWYmuSPWh" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-11T16:48:11.024Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="GmW0lcPW412g_2-Csd91" version="21.6.7" type="github">
   <diagram name="Page-1" id="Q7LPxqIHuv_cpELlYRCS">
-    <mxGraphModel dx="1034" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1884" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -69,6 +69,27 @@
         </mxCell>
         <mxCell id="Niq853-lt7dc414jjwlL-1" value="&lt;h1&gt;Production Setup - Redis&lt;br&gt;&lt;/h1&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="110" y="-90" width="730" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="V_gI7Fr2jN0JoNVk8S9s-1" value="CacheCrudService" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="150" width="110" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="V_gI7Fr2jN0JoNVk8S9s-3" value="create" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="V_gI7Fr2jN0JoNVk8S9s-1">
+          <mxGeometry x="20" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V_gI7Fr2jN0JoNVk8S9s-2" value="delete" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="178" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="V_gI7Fr2jN0JoNVk8S9s-4" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.006;entryY=0.347;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8BJWhGXCUrjtmx8MCfsU-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="190" as="sourcePoint" />
+            <mxPoint x="90" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="V_gI7Fr2jN0JoNVk8S9s-5" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.059;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8BJWhGXCUrjtmx8MCfsU-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="230" as="sourcePoint" />
+            <mxPoint x="90" y="180" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
