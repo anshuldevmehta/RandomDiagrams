@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T15:02:32.447Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="yQtuEoyeYyHyT1vTLHUX" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T15:07:05.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="LmG_XmSJo-befGPaoiEe" version="21.6.7" type="github">
   <diagram name="Page-1" id="S2DO4Dpq8Ne72N8rx3Cb">
-    <mxGraphModel dx="1034" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1034" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -31,7 +31,7 @@
         <mxCell id="ZE6NOK02QtIq8QPacqUB-7" value="User ID +Password " style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="110" width="70" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ZE6NOK02QtIq8QPacqUB-8" value="&lt;div&gt;This user ID&lt;/div&gt;&lt;div&gt;and pwd are stored in MW configuration&lt;br&gt;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="ZE6NOK02QtIq8QPacqUB-8" value="SOAP service used to update schedule" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="440" y="180" width="70" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZE6NOK02QtIq8QPacqUB-9" value="IEX Database" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
@@ -76,8 +76,35 @@
             <mxPoint x="530" y="54.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="vm18_fpK6kbzvEr00Nit-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="340" y="360" width="80" height="80" as="geometry" />
+        <mxCell id="vm18_fpK6kbzvEr00Nit-1" value="REDIS - Holds agent schedules" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="320" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vm18_fpK6kbzvEr00Nit-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.613;exitY=0.025;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.436;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ZE6NOK02QtIq8QPacqUB-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="359.52" y="347" as="sourcePoint" />
+            <mxPoint x="370.48" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vm18_fpK6kbzvEr00Nit-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="115" as="sourcePoint" />
+            <mxPoint x="350" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vm18_fpK6kbzvEr00Nit-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="40" as="sourcePoint" />
+            <mxPoint x="740" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vm18_fpK6kbzvEr00Nit-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="740" y="110" as="sourcePoint" />
+            <mxPoint x="740" y="40" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vm18_fpK6kbzvEr00Nit-8" value="Cahe is loaded by direct DB connection from MW to IEX - Read only stored procedures" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="10" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
