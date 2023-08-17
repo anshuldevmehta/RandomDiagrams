@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-08-17T15:07:05.426Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="LmG_XmSJo-befGPaoiEe" version="21.6.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-17T15:08:35.668Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="MqqMJ_UZON0I-PmWsFhC" version="21.6.7" type="github">
   <diagram name="Page-1" id="S2DO4Dpq8Ne72N8rx3Cb">
     <mxGraphModel dx="1034" dy="1532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -16,7 +16,7 @@
         <mxCell id="ZE6NOK02QtIq8QPacqUB-3" value="Authorization Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="220" y="110" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="ZE6NOK02QtIq8QPacqUB-4" value="Middleware Agent Callout API" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="ZE6NOK02QtIq8QPacqUB-4" value="&lt;div&gt;Middleware Agent Callout API&lt;/div&gt;&lt;div&gt;(System module)&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="310" y="115" width="110" height="110" as="geometry" />
         </mxCell>
         <mxCell id="ZE6NOK02QtIq8QPacqUB-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" parent="1" edge="1">
