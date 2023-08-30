@@ -1,9 +1,111 @@
-<mxfile host="app.diagrams.net" modified="2023-08-30T13:54:08.231Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" version="21.6.9" etag="CiktWs9Rs3nbPuqAbgRp" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-30T14:11:06.724Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/116.0" etag="GkyF7M4f0RJcCxeurogg" version="21.6.9" type="github">
   <diagram name="Page-1" id="eFWDL6az-_jv6JoQ0qHn">
-    <mxGraphModel>
+    <mxGraphModel dx="1034" dy="389" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-1" value="&lt;div&gt;Excel Validator And Parser (Can be setup using thread pool to run async for multiple excels)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;It will use 3 main components&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="130" width="130" height="125" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-2" value="Excel Reader (Will handle uploads)" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-3" value="Excel Validator" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="150" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-4" value="DTO Creator if steps 1 and 2 are successful" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="630" y="280" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-5" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.025;entryY=0.663;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wvbWIDLUpwRn8YSgVwtW-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="130" as="sourcePoint" />
+            <mxPoint x="570" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-6" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.025;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.56;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="wvbWIDLUpwRn8YSgVwtW-1" target="wvbWIDLUpwRn8YSgVwtW-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="200" as="sourcePoint" />
+            <mxPoint x="580" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-8" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wvbWIDLUpwRn8YSgVwtW-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="260" as="sourcePoint" />
+            <mxPoint x="570" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-9" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="80" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-10" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="160" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-11" value="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-12" value="Orchestrator (basically means coordinator)" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="150" y="225" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.015;entryY=0.392;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wvbWIDLUpwRn8YSgVwtW-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="230" as="sourcePoint" />
+            <mxPoint x="280" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-14" value="Persister and 2nd microservice dealer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="370" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-15" value="DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="700" y="400" width="60" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-16" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.033;entryY=0.275;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wvbWIDLUpwRn8YSgVwtW-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="420" as="sourcePoint" />
+            <mxPoint x="690" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-17" value="3" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="260" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-18" value="The other microservice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="550" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-19" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.333;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wvbWIDLUpwRn8YSgVwtW-14" target="wvbWIDLUpwRn8YSgVwtW-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="500" as="sourcePoint" />
+            <mxPoint x="560" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-20" value="Update status to NEW" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="388" width="140" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-21" value="2" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="490" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-22" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=1;entryDx=0;entryDy=-15;entryPerimeter=0;" edge="1" parent="1" target="wvbWIDLUpwRn8YSgVwtW-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="470" as="sourcePoint" />
+            <mxPoint x="560" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-23" value="3 (Update response to DB)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="440" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.025;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="wvbWIDLUpwRn8YSgVwtW-12" target="wvbWIDLUpwRn8YSgVwtW-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="320" as="sourcePoint" />
+            <mxPoint x="280" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-25" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="225" width="30" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="wvbWIDLUpwRn8YSgVwtW-28" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wvbWIDLUpwRn8YSgVwtW-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="40" y="265" as="sourcePoint" />
+            <mxPoint x="90" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
