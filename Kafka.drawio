@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-14T11:40:56.466Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="kF8F1AXvxoBxz1M_-7-Z" version="22.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-14T11:41:14.243Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="P8_hakBkxx_-H5Nrbvap" version="22.1.0" type="github">
   <diagram name="Page-1" id="zG5zKizvqUGSGyj7EHf8">
     <mxGraphModel dx="794" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -30,6 +30,12 @@
         </mxCell>
         <mxCell id="i1HN7uWvgcQq31iAKBWK-5" value="Kadeck client on local machine" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="90" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="i1HN7uWvgcQq31iAKBWK-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.325;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i1HN7uWvgcQq31iAKBWK-5" target="G7nmGpfLF5mpm_TBCSaa-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="300" as="sourcePoint" />
+            <mxPoint x="261" y="114" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
