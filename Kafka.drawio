@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-11-17T09:53:46.489Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="HcbRewenvpE5LTpdGeWi" version="22.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-11-17T09:54:31.290Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/119.0" etag="GBh3dHEL5H7LWEeTB5qv" version="22.1.2" type="github">
   <diagram name="Page-1" id="zG5zKizvqUGSGyj7EHf8">
     <mxGraphModel dx="794" dy="386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -22,7 +22,7 @@
         <mxCell id="i1HN7uWvgcQq31iAKBWK-2" value="SMA" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="85" y="60" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="i1HN7uWvgcQq31iAKBWK-4" value="KADECK" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="i1HN7uWvgcQq31iAKBWK-4" value="KADECK UI" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="640" y="60" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="i1HN7uWvgcQq31iAKBWK-5" value="Kadeck client on local machine" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
