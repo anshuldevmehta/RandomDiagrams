@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-07T09:03:45.705Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="cUqCmllDTKzRqe7W4pP2" version="22.1.7" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-07T09:04:29.257Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="cHuuwIXjbVhVMYdkg0iJ" version="22.1.7" type="github">
   <diagram name="Page-1" id="YelkGCeMazvoDBq8n71y">
     <mxGraphModel dx="1210" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -59,6 +59,24 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="148.75" y="120" as="sourcePoint" />
             <mxPoint x="192.5" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7VfMDNwSIcgL4_Bs0VZ-20" value="&lt;div&gt;RegistryBuilderMicroservice&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="x7VfMDNwSIcgL4_Bs0VZ-21" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.59;exitY=0.017;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="x7VfMDNwSIcgL4_Bs0VZ-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="650" y="290" as="sourcePoint" />
+            <mxPoint x="700" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x7VfMDNwSIcgL4_Bs0VZ-22" value="REDIS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="70" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="x7VfMDNwSIcgL4_Bs0VZ-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.558;exitY=0.983;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="x7VfMDNwSIcgL4_Bs0VZ-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="220" as="sourcePoint" />
+            <mxPoint x="620" y="170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
