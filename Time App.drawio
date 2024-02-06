@@ -1,9 +1,74 @@
-<mxfile host="app.diagrams.net" modified="2024-02-06T10:28:58.972Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" version="23.0.2" etag="1CM2qV_GuqO8VEYY93_2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-06T10:42:37.112Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="shWlB9VcbUGo-qo9eqqM" version="23.0.2" type="github">
   <diagram name="Page-1" id="3bAO9Kur4QuLs1qQDSVV">
-    <mxGraphModel>
+    <mxGraphModel dx="2300" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-1" value="Business Hours (8 -5)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="370" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9NFYFqfSl-AOQuA-qdWn-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-2" value="Start time" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="200" y="60" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-5" value="Set - Business Days(8 -5)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="540" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-6" value="Add 4 hours to it." style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="210" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-8" value="Is End Time Beyond business hours?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="180" y="340" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.04;entryY=0.317;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="9NFYFqfSl-AOQuA-qdWn-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="390" as="sourcePoint" />
+            <mxPoint x="390" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.642;exitY=1.025;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9NFYFqfSl-AOQuA-qdWn-6" target="9NFYFqfSl-AOQuA-qdWn-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="300" as="sourcePoint" />
+            <mxPoint x="300" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-12" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="9NFYFqfSl-AOQuA-qdWn-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="440" as="sourcePoint" />
+            <mxPoint x="50" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-13" value="No" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="350" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-14" value="Result" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="350" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="9NFYFqfSl-AOQuA-qdWn-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="530" as="sourcePoint" />
+            <mxPoint x="260" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-16" value="Yes" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="470" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-17" value="&lt;div&gt;How many spill over hours ?&lt;/div&gt;&lt;div&gt;Effective Time = NBD Start Time + Spill Hours &lt;br&gt;&lt;/div&gt;&lt;div&gt;What is next business day?&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="540" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-18" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="9NFYFqfSl-AOQuA-qdWn-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="320" y="570" as="sourcePoint" />
+            <mxPoint x="370" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9NFYFqfSl-AOQuA-qdWn-19" value="Next BD Fetcher" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="365" y="535" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
