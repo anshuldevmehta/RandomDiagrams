@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T11:32:25.644Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="bEXKDN52S5lpTSt98WHC" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T11:36:40.945Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="KVlcpivC_FSb6ychvAQS" version="23.1.5" type="github">
   <diagram name="Page-1" id="exkiVACLBN_ZIiw5deeH">
     <mxGraphModel dx="2300" dy="1703" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
             <mxPoint x="249.5" y="240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BdaOOntgbtU54VFTs0E3-2" value="Blocked command list/set/map what ever.." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+        <mxCell id="BdaOOntgbtU54VFTs0E3-2" value="&lt;div&gt;List&amp;lt;String&amp;gt; typesOfCommandsBlocked&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;List&amp;lt;BatchId&amp;gt; blockedBatchIds&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="620" y="150" width="250" height="250" as="geometry" />
         </mxCell>
         <mxCell id="BdaOOntgbtU54VFTs0E3-3" value="IS there a blocking instruction for the command on the blocked list?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
