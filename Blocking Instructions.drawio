@@ -1,17 +1,53 @@
-<mxfile host="app.diagrams.net" modified="2024-02-20T11:22:47.835Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="3pGZxtLgJNWtHtsY6Asb" version="23.1.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-20T11:27:16.932Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="u9SMA7D_CHfJrjXrZUSJ" version="23.1.5" type="github">
   <diagram name="Page-1" id="exkiVACLBN_ZIiw5deeH">
-    <mxGraphModel dx="1450" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2300" dy="603" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="7X-C3saopRzC4XdTa0ZW-1" value="Listener" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="210" y="80" width="80" height="80" as="geometry" />
+        <mxCell id="7X-C3saopRzC4XdTa0ZW-1" value="Listener" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="210" y="70" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="7X-C3saopRzC4XdTa0ZW-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7X-C3saopRzC4XdTa0ZW-1">
+        <mxCell id="7X-C3saopRzC4XdTa0ZW-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="250" y="180" as="sourcePoint" />
-            <mxPoint x="250" y="240" as="targetPoint" />
+            <mxPoint x="249.5" y="150" as="sourcePoint" />
+            <mxPoint x="249.5" y="240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="BdaOOntgbtU54VFTs0E3-2" value="Blocked command list/set/map what ever.." style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="620" y="150" width="250" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BdaOOntgbtU54VFTs0E3-3" value="IS there a blocking instruction for the command on the blocked list?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="240" width="240" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="BdaOOntgbtU54VFTs0E3-4" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=-0.02;entryY=0.592;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="BdaOOntgbtU54VFTs0E3-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="360" y="300" as="sourcePoint" />
+            <mxPoint x="410" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdaOOntgbtU54VFTs0E3-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.033;exitY=0.525;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="BdaOOntgbtU54VFTs0E3-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="340" as="sourcePoint" />
+            <mxPoint x="-20" y="303" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdaOOntgbtU54VFTs0E3-7" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="270" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BdaOOntgbtU54VFTs0E3-11" value="Send Failure Response." style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="270" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="BdaOOntgbtU54VFTs0E3-12" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="360" as="sourcePoint" />
+            <mxPoint x="250" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BdaOOntgbtU54VFTs0E3-13" value="No" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="BdaOOntgbtU54VFTs0E3-14" value="Put the command on the queue (This will automatically happen as its ready)." style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="450" width="170" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
