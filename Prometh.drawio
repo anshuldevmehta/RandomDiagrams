@@ -1,9 +1,48 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T08:02:18.032Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" version="24.2.5" etag="r4DB2fF7ZcmFhdMqCTK1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T08:07:45.632Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:125.0) Gecko/20100101 Firefox/125.0" etag="BG57Mko7tHgr6UeHq0dk" version="24.2.5" type="github">
   <diagram name="Page-1" id="uv1Ds1zVz8xSHR1VwrCG">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="836" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="OSMBPguObw0gnJWRp-eb-1" value="Spring Bhoot" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-177" y="92" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OSMBPguObw0gnJWRp-eb-2" value="Jai Meter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="199" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OSMBPguObw0gnJWRp-eb-3" value="Akela Developer" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-177" y="-19" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OSMBPguObw0gnJWRp-eb-4" value="Faltu Application" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-177" y="333" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OSMBPguObw0gnJWRp-eb-5" value="ALL DUMPING DATA INTO DIFFERENT FILES ON A HARD DRIVE, CLOUD DRIVE OR ANY COMMON DRIVE IN THE WORLD" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="125" y="8" width="76" height="246" as="geometry" />
+        </mxCell>
+        <mxCell id="OSMBPguObw0gnJWRp-eb-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-48" y="15" as="sourcePoint" />
+            <mxPoint x="115" y="124" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSMBPguObw0gnJWRp-eb-7" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-50" y="344" as="sourcePoint" />
+            <mxPoint x="125" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSMBPguObw0gnJWRp-eb-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OSMBPguObw0gnJWRp-eb-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-40" y="354" as="sourcePoint" />
+            <mxPoint x="113" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OSMBPguObw0gnJWRp-eb-9" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="OSMBPguObw0gnJWRp-eb-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-45" y="239" as="sourcePoint" />
+            <mxPoint x="115" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
