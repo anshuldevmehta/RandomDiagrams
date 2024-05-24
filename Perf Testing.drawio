@@ -1,9 +1,72 @@
-<mxfile host="app.diagrams.net" modified="2024-05-24T11:37:47.201Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" version="24.0.0" etag="IFn1m5wtL70Xgs06qIqH" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-24T11:43:10.075Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="pfI7H6OXNU8bYi3juJyq" version="24.0.0" type="github">
   <diagram name="Page-1" id="z-GWT2oda8tMDkIaa_87">
-    <mxGraphModel>
+    <mxGraphModel dx="1135" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="HXwUfvASEkpPxukK2amZ-1" value="JMeter" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="110" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HXwUfvASEkpPxukK2amZ-1" target="HXwUfvASEkpPxukK2amZ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="190" as="sourcePoint" />
+            <mxPoint x="120" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-3" value="Publishes Command to command scheduler" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="180" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-4" value="Command Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-5" value="Mock Response Script (Python)" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="430" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-7" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=-0.007;exitY=0.571;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="HXwUfvASEkpPxukK2amZ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="130" y="450" as="sourcePoint" />
+            <mxPoint x="180" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-8" value="Mock response script supplies mock responses" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="415" width="110" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-9" value="Kafka" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="610" y="230" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-10" value="Dragon Fly" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="365" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-11" value="Kafka+JMeter+DragonFly Statistics for the test run Are supplied to GRAFANA via Influx, Kafka exporter and Prometheus" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="400" y="110" width="270" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.312;entryY=1.039;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="HXwUfvASEkpPxukK2amZ-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="430" y="240" as="sourcePoint" />
+            <mxPoint x="480" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="HXwUfvASEkpPxukK2amZ-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="440" y="250" as="sourcePoint" />
+            <mxPoint x="540" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="HXwUfvASEkpPxukK2amZ-1" target="HXwUfvASEkpPxukK2amZ-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="145.58" as="sourcePoint" />
+            <mxPoint x="390" y="146" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-15" value="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="240" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-16" value="2" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="390" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HXwUfvASEkpPxukK2amZ-17" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="280" y="180" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
