@@ -29,7 +29,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="X5U-q2b1jGEAHIpkHi4O-11" value="&lt;div&gt;Developer fixes&lt;/div&gt;&lt;div&gt;&amp;nbsp;and deploys&amp;nbsp;&lt;/div&gt;&lt;div&gt;hotfix to master&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="563" y="169" width="30" height="60" as="geometry" />
+          <mxGeometry x="567" y="169" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X5U-q2b1jGEAHIpkHi4O-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
