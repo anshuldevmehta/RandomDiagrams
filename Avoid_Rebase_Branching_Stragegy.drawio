@@ -160,6 +160,15 @@
         <mxCell id="X5U-q2b1jGEAHIpkHi4O-63" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="203" y="64" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-65" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="203" y="47" as="sourcePoint" />
+            <mxPoint x="-112" y="45" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-66" value="Defect branch created from DEV" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-70" y="52" width="227" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
