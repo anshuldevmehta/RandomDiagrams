@@ -85,6 +85,27 @@
         <mxCell id="X5U-q2b1jGEAHIpkHi4O-23" value="PROD ISSUE" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="175" y="172" width="60" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="197" y="314" as="sourcePoint" />
+            <mxPoint x="195" y="392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-25" value="NO" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="325" y="357" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-27" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="198" y="391" as="sourcePoint" />
+            <mxPoint x="584" y="391" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="580" y="387" as="sourcePoint" />
+            <mxPoint x="580" y="279" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
