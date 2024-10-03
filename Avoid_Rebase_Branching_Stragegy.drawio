@@ -136,6 +136,9 @@
         <mxCell id="X5U-q2b1jGEAHIpkHi4O-51" value="To promote code to TEST, there is always one MR - which is Dev- Test" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
           <mxGeometry x="49" y="-78.5" width="126" height="74" as="geometry" />
         </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-52" value="To promote code to MASTER, there is always one MR - which is Test- Master" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="-78.5" width="126" height="74" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
