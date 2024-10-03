@@ -175,6 +175,15 @@
             <mxPoint x="690" y="192" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-68" value="&lt;div&gt;Master is always in a stable&lt;/div&gt;&lt;div&gt;&amp;nbsp;and tested state so that we&amp;nbsp;&lt;/div&gt;&lt;div&gt;can deploy to production&lt;/div&gt;&lt;div&gt;&amp;nbsp;any time from master.&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="482" y="-93" width="231" height="143" as="geometry" />
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-69" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.082;entryY=0.671;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="X5U-q2b1jGEAHIpkHi4O-68">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="369" y="103" as="sourcePoint" />
+            <mxPoint x="419" y="53" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
