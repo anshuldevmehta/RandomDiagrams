@@ -5,13 +5,76 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="X5U-q2b1jGEAHIpkHi4O-1" value="DEV" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="-147" y="105" width="80" height="80" as="geometry" />
+          <mxGeometry x="-151" y="100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="X5U-q2b1jGEAHIpkHi4O-2" value="TEST" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="120" y="107" width="80" height="80" as="geometry" />
+          <mxGeometry x="58" y="100" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="X5U-q2b1jGEAHIpkHi4O-3" value="MASTER" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="398" y="115" width="80" height="80" as="geometry" />
+          <mxGeometry x="295" y="98" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-5" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="X5U-q2b1jGEAHIpkHi4O-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-69" y="140" as="sourcePoint" />
+            <mxPoint x="-16" y="99" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-6" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="141" y="138" as="sourcePoint" />
+            <mxPoint x="293" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-7" value="ONLY In case of production issue new HOTFIX branch pulled from master" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="285" y="235" width="120" height="79" as="geometry" />
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-8" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="X5U-q2b1jGEAHIpkHi4O-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="339" y="188" as="sourcePoint" />
+            <mxPoint x="337" y="234" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-11" value="&lt;div&gt;Developer fixes&lt;/div&gt;&lt;div&gt;&amp;nbsp;and deploys&amp;nbsp;&lt;/div&gt;&lt;div&gt;hotfix to master&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="563" y="169" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="402" y="277" as="sourcePoint" />
+            <mxPoint x="553" y="212" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-13" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="X5U-q2b1jGEAHIpkHi4O-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="553" y="214" as="sourcePoint" />
+            <mxPoint x="536" y="161" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-14" value="&lt;div&gt;Hotfix&amp;nbsp;&lt;/div&gt;&lt;div&gt;stable?&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="158" y="235" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-16" value="" style="endArrow=none;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-114" y="277" as="sourcePoint" />
+            <mxPoint x="158" y="275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-17" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-114" y="276" as="sourcePoint" />
+            <mxPoint x="-114" y="186" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-18" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="96" y="273" as="sourcePoint" />
+            <mxPoint x="96" y="181" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-19" value="Hotfix Merged To Test and Dev" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-58" y="161" width="68" height="101" as="geometry" />
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-21" value="YES" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="100" y="241" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
