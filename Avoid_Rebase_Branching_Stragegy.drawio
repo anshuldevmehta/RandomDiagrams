@@ -121,6 +121,18 @@
         <mxCell id="X5U-q2b1jGEAHIpkHi4O-43" value="Reviewer" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="-261" y="34" width="30" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-49" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="X5U-q2b1jGEAHIpkHi4O-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-229" y="62" as="sourcePoint" />
+            <mxPoint x="-179" y="12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5U-q2b1jGEAHIpkHi4O-50" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.01;entryY=0.641;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="X5U-q2b1jGEAHIpkHi4O-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-236" y="-53.05" as="sourcePoint" />
+            <mxPoint x="-154.95299999999997" y="-60.00100000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
