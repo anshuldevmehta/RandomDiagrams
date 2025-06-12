@@ -28,7 +28,7 @@
         <mxCell id="CB2LPCBiZO9Efgwe6hKB-8" value="MNC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="131" y="-26" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="CB2LPCBiZO9Efgwe6hKB-9" value="MNC Send Registry" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="CB2LPCBiZO9Efgwe6hKB-9" value="MNC Receive Registry" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="128" y="261" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="CB2LPCBiZO9Efgwe6hKB-10" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
@@ -50,12 +50,12 @@
         <mxCell id="CB2LPCBiZO9Efgwe6hKB-15" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="CB2LPCBiZO9Efgwe6hKB-10" vertex="1">
           <mxGeometry y="82" width="247" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="CB2LPCBiZO9Efgwe6hKB-16" value="Message ID + IPV6 Address" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="CB2LPCBiZO9Efgwe6hKB-15" vertex="1">
+        <mxCell id="CB2LPCBiZO9Efgwe6hKB-16" value="Correlation ID" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="CB2LPCBiZO9Efgwe6hKB-15" vertex="1">
           <mxGeometry width="124" height="77" as="geometry">
             <mxRectangle width="124" height="77" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CB2LPCBiZO9Efgwe6hKB-17" value="COAP Kafka Request (includes CRID)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="CB2LPCBiZO9Efgwe6hKB-15" vertex="1">
+        <mxCell id="CB2LPCBiZO9Efgwe6hKB-17" value="COAP Request Message" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="CB2LPCBiZO9Efgwe6hKB-15" vertex="1">
           <mxGeometry x="124" width="123" height="77" as="geometry">
             <mxRectangle width="123" height="77" as="alternateBounds" />
           </mxGeometry>
@@ -69,7 +69,7 @@
         <mxCell id="CB2LPCBiZO9Efgwe6hKB-25" value="NODE" style="shape=display;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="-285" y="287" width="173" height="91" as="geometry" />
         </mxCell>
-        <mxCell id="CB2LPCBiZO9Efgwe6hKB-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=-0.025;exitY=0.932;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="CB2LPCBiZO9Efgwe6hKB-3">
+        <mxCell id="CB2LPCBiZO9Efgwe6hKB-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=-0.025;exitY=0.932;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="CB2LPCBiZO9Efgwe6hKB-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-114" y="349" as="sourcePoint" />
             <mxPoint x="-112" y="344" as="targetPoint" />
@@ -80,7 +80,7 @@
             <mxPoint x="-58" y="-74" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="CB2LPCBiZO9Efgwe6hKB-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.972;exitY=0.147;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.812;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="CB2LPCBiZO9Efgwe6hKB-3" source="CB2LPCBiZO9Efgwe6hKB-25">
+        <mxCell id="CB2LPCBiZO9Efgwe6hKB-29" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.972;exitY=0.147;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.015;entryY=0.812;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="CB2LPCBiZO9Efgwe6hKB-25" target="CB2LPCBiZO9Efgwe6hKB-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="274" y="296" as="sourcePoint" />
             <mxPoint x="59" y="298" as="targetPoint" />
