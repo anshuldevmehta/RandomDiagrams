@@ -67,7 +67,7 @@
             <mxPoint x="591" y="255" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-30" value="Native COAP Request Processed Using COAP/DTLS Stack which is now part of MNC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-30" value="Native COAP Request/Response Processed Using COAP/DTLS Stack which is now part of MNC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="460" y="287" width="126" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-32" value="COAP Kafka Request (JSON)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
