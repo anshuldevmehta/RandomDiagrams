@@ -8,10 +8,10 @@
           <mxGeometry x="411.5" y="350" width="196" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-2" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="413" y="-67" width="193" height="321" as="geometry" />
+          <mxGeometry x="413" y="-116" width="193" height="370" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-3" value="&lt;div&gt;Arjun&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-249" y="147" width="30" height="60" as="geometry" />
+          <mxGeometry x="308" y="-67" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-10" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-67" y="-24" width="230" height="323" as="geometry" />
@@ -82,11 +82,11 @@
             <mxPoint x="292" y="237" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-35" value="&lt;div&gt;MNC Will do the following:&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Convert COAP Kafka request to Native COAP Request using existing COAP/DTLS Stack&lt;/li&gt;&lt;li&gt;Adds COAP Kafka request to send registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="417" y="-57" width="180" height="169" as="geometry" />
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-35" value="&lt;div&gt;&lt;b&gt;MNC Will do the following for requests:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Convert COAP Kafka request to Native COAP Request using existing COAP/DTLS Stack&lt;/li&gt;&lt;li&gt;Adds COAP Kafka request to send registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="423" y="-103" width="180" height="137" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-36" value="MNC Send Registry" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="483" y="162" width="60" height="80" as="geometry" />
+          <mxGeometry x="483" y="176" width="60" height="73" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-37" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="645" y="90" width="247" height="159" as="geometry" />
@@ -122,6 +122,9 @@
             <mxPoint x="545" y="209" as="sourcePoint" />
             <mxPoint x="641" y="212" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-45" value="&lt;div&gt;&lt;b&gt;MNC Will do the following for response:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Convert native COAP response to COAP Kafka response JSON&lt;/li&gt;&lt;li&gt;Removes corresponding COAP Kafka request from send registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="419.5" y="34" width="180" height="137" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
