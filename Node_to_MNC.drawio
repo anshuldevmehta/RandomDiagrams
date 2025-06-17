@@ -58,10 +58,10 @@
         <mxCell id="RWkT_HldE0pe_v-NqP8z-30" value="Native COAP Request/Response Processed Using COAP/DTLS Stack which is now part of MNC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="460" y="287" width="126" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-32" value="COAP Kafka Request (JSON)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-32" value="COAP Kafka Response (JSON)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="309" y="87" width="80" height="41" as="geometry" />
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-33" value="COAP Kafka Response (JSON)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-33" value="COAP Kafka Request (JSON)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="1" vertex="1">
           <mxGeometry x="308" y="180" width="82" height="57" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-34" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="RWkT_HldE0pe_v-NqP8z-21" target="RWkT_HldE0pe_v-NqP8z-9" edge="1">
@@ -73,7 +73,7 @@
         <mxCell id="RWkT_HldE0pe_v-NqP8z-35" value="&lt;div&gt;&lt;b&gt;MNC Will do the following for requests:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Convert COAP Kafka request to Native COAP Request using existing COAP/DTLS Stack&lt;/li&gt;&lt;li&gt;Adds COAP Kafka request to send registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="423" y="-103" width="180" height="137" as="geometry" />
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-36" value="MNC Send Registry" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-36" value="MNC Receive Registry" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="483" y="176" width="60" height="73" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-37" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
@@ -95,12 +95,12 @@
         <mxCell id="RWkT_HldE0pe_v-NqP8z-41" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-37" vertex="1">
           <mxGeometry y="82" width="247" height="77" as="geometry" />
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-42" value="Message ID + IPV6 Address" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-41" vertex="1">
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-42" value="Correlation ID (CRID)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-41" vertex="1">
           <mxGeometry width="124" height="77" as="geometry">
             <mxRectangle width="124" height="77" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-43" value="COAP Kafka Request (includes CRID)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-41" vertex="1">
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-43" value="COAP Request&amp;nbsp;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-41" vertex="1">
           <mxGeometry x="124" width="123" height="77" as="geometry">
             <mxRectangle width="123" height="77" as="alternateBounds" />
           </mxGeometry>
@@ -178,6 +178,24 @@
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-64" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;REQUEST SENT FROM NODE TO MICRO SERIVCE - A DEEPER DIVE.&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-203" y="-267" width="823" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="kJAYYw9D8IFCnqC6EgTu-1" value="1" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="588" y="295" width="37" height="19.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kJAYYw9D8IFCnqC6EgTu-2" value="6" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="411.5" y="289" width="37" height="19.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kJAYYw9D8IFCnqC6EgTu-3" value="5" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="326" y="141" width="37" height="19.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kJAYYw9D8IFCnqC6EgTu-4" value="2" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="330.5" y="248.75" width="37" height="19.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kJAYYw9D8IFCnqC6EgTu-5" value="3" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="144" width="37" height="19.5" as="geometry" />
+        </mxCell>
+        <mxCell id="kJAYYw9D8IFCnqC6EgTu-6" value="4" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="49" y="144" width="37" height="19.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
