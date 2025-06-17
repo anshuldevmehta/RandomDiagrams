@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="Page-1" id="rOzXXXHk_BylpBzUH5-h">
-    <mxGraphModel dx="1825" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1425" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -120,49 +120,14 @@
         <mxCell id="RWkT_HldE0pe_v-NqP8z-47" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;ANATOMY of MNC Client&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-319" y="-120" width="178" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-48" value="&lt;div&gt;&lt;b&gt;MNCC will do the following for requests:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;MNC Client is used to convert request to COAP Kafka (JSON)&lt;/li&gt;&lt;li&gt;Adds COAP Kafka request to MNCC send registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-319" y="-100" width="180" height="135" as="geometry" />
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-48" value="&lt;div&gt;&lt;b&gt;MNCC will do the following for requests:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;MNC Client is used to convert&amp;nbsp; COAP Kafka request to COAP request, but how??&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-319" y="-100" width="180" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-49" value="&lt;div&gt;&lt;b&gt;MNCC will do the following for response:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Convert COAP Kafka response to COAP response object&lt;/li&gt;&lt;li&gt;Removes corresponding COAP Kafka request from MNCC send registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-49" value="&lt;div&gt;&lt;b&gt;MNCC will do the following for response:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Convert COAP response to COAP Kafka response, but how???&amp;nbsp;&lt;/li&gt;&lt;li&gt;Need to update the CRID in the response (exactly same as request)&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-319" y="47" width="180" height="137" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-50" value="NO REGISTRY" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="-295" y="222" width="122" height="73" as="geometry" />
-        </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-51" value="" style="shape=table;startSize=0;container=1;collapsible=0;childLayout=tableLayout;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="-644" y="158" width="247" height="159" as="geometry" />
-        </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-52" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-51" vertex="1">
-          <mxGeometry width="247" height="82" as="geometry" />
-        </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-53" value="Key&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;/span&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-52" vertex="1">
-          <mxGeometry width="124" height="82" as="geometry">
-            <mxRectangle width="124" height="82" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-54" value="Value" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-52" vertex="1">
-          <mxGeometry x="124" width="123" height="82" as="geometry">
-            <mxRectangle width="123" height="82" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-55" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;strokeColor=inherit;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-51" vertex="1">
-          <mxGeometry y="82" width="247" height="77" as="geometry" />
-        </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-56" value="Correlation ID (CRID)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-55" vertex="1">
-          <mxGeometry width="124" height="77" as="geometry">
-            <mxRectangle width="124" height="77" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-57" value="COAP Kafka Request (includes CRID)" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;strokeColor=inherit;overflow=hidden;fillColor=none;top=0;left=0;bottom=0;right=0;pointerEvents=1;fontSize=16;" parent="RWkT_HldE0pe_v-NqP8z-55" vertex="1">
-          <mxGeometry x="124" width="123" height="77" as="geometry">
-            <mxRectangle width="123" height="77" as="alternateBounds" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-58" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-401" y="265" as="sourcePoint" />
-            <mxPoint x="-295" y="265" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-60" value="COAP Response (Not JSON)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" parent="1" vertex="1">
           <mxGeometry x="18.000000000000004" y="60" width="110" height="30" as="geometry" />
