@@ -70,7 +70,7 @@
             <mxPoint x="292" y="237" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-35" value="&lt;div&gt;&lt;b&gt;MNC Will do the following for requests:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Convert COAP Kafka request to Native COAP Request using existing COAP/DTLS Stack&lt;/li&gt;&lt;li&gt;Adds COAP Kafka request to send registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-35" value="&lt;div&gt;&lt;b&gt;MNC Will do the following for requests:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Convert native COAP&amp;nbsp; request to COAP Kafka Request (JSON)&lt;/li&gt;&lt;li&gt;Adds COAP request to receive registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="423" y="-103" width="180" height="137" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-36" value="MNC Receive Registry" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
@@ -111,7 +111,7 @@
             <mxPoint x="641" y="212" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-45" value="&lt;div&gt;&lt;b&gt;MNC Will do the following for response:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Convert native COAP response to COAP Kafka response JSON&lt;/li&gt;&lt;li&gt;Removes corresponding COAP Kafka request from send registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-45" value="&lt;div&gt;&lt;b&gt;MNC Will do the following for response:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;Convert Kafka response to native COAP response&lt;/li&gt;&lt;li&gt;Removes corresponding COAP request from receive registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="419.5" y="34" width="180" height="137" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-46" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
