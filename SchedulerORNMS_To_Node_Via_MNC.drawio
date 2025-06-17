@@ -13,15 +13,6 @@
         <mxCell id="RWkT_HldE0pe_v-NqP8z-10" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-67" y="-24" width="230" height="323" as="geometry" />
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RWkT_HldE0pe_v-NqP8z-13" target="RWkT_HldE0pe_v-NqP8z-9">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="22" y="8" as="sourcePoint" />
-            <mxPoint x="120" y="12" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-13" value="NMS/Scheduler" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-29" y="-18" width="146" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-9" value="MNC Client library is used to convert request/response to COAP Kafka (JSON) and vice versa" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-16" y="180" width="120" height="74" as="geometry" />
         </mxCell>
@@ -172,6 +163,18 @@
             <mxPoint x="-401" y="265" as="sourcePoint" />
             <mxPoint x="-295" y="265" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-60" value="COAP Response (Not JSON)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="18.000000000000004" y="60" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-62" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="RWkT_HldE0pe_v-NqP8z-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="20" y="102" as="sourcePoint" />
+            <mxPoint x="44" y="12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-63" value="NMS/Scheduler" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-11" y="-12" width="112" height="23" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
