@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:139.0) Gecko/20100101 Firefox/139.0" version="27.1.6">
   <diagram name="Page-1" id="rOzXXXHk_BylpBzUH5-h">
-    <mxGraphModel dx="1825" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1586" dy="843" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -126,7 +126,7 @@
         <mxCell id="RWkT_HldE0pe_v-NqP8z-46" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-330" y="-111.5" width="196" height="438" as="geometry" />
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-47" value="ANATOMY of MNC Client" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-47" value="&lt;div align=&quot;center&quot;&gt;&lt;b&gt;ANATOMY of MNC Client&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-319" y="-120" width="178" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-48" value="&lt;div&gt;&lt;b&gt;MNCC will do the following for requests:&lt;/b&gt;&lt;/div&gt;&lt;ol&gt;&lt;li&gt;MNC Client is used to convert request to COAP Kafka (JSON)&lt;/li&gt;&lt;li&gt;Adds COAP Kafka request to MNCC send registry&lt;/li&gt;&lt;/ol&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
