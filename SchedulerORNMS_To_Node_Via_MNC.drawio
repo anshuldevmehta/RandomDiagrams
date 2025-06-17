@@ -5,19 +5,70 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="RWkT_HldE0pe_v-NqP8z-1" value="Node" style="shape=display;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-159" y="198" width="80" height="40" as="geometry" />
+          <mxGeometry x="411.5" y="350" width="196" height="40" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-2" value="MNC" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="82" y="138" width="120" height="60" as="geometry" />
+          <mxGeometry x="413" y="39" width="193" height="215" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-3" value="&lt;div&gt;Arjun&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="-225" y="54" width="30" height="60" as="geometry" />
+          <mxGeometry x="-249" y="147" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-9" value="MNC Client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="107" y="-22" width="120" height="60" as="geometry" />
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-10" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-67" y="-24" width="230" height="323" as="geometry" />
         </mxCell>
-        <mxCell id="RWkT_HldE0pe_v-NqP8z-10" value="Scheduler OR NMS" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-96" y="-6" width="120" height="60" as="geometry" />
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-11" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="RWkT_HldE0pe_v-NqP8z-13" target="RWkT_HldE0pe_v-NqP8z-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="22" y="8" as="sourcePoint" />
+            <mxPoint x="120" y="12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-13" value="NMS/Scheduler" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-29" y="-18" width="146" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-9" value="MNC Client library is used to convert request to COAP Kafka (JSON)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-16" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-14" value="COAP Request (Not JSON)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=-90;" vertex="1" parent="1">
+          <mxGeometry x="-33" y="63" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-20" value="Send Topic&amp;nbsp;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="215" y="93" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-21" value="Receive Topic" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="215" y="200" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-22" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RWkT_HldE0pe_v-NqP8z-20">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="107" y="197" as="sourcePoint" />
+            <mxPoint x="157" y="147" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-23" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="277" y="138" as="sourcePoint" />
+            <mxPoint x="411" y="138" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-24" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;" edge="1" parent="1" target="RWkT_HldE0pe_v-NqP8z-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="411" y="240" as="sourcePoint" />
+            <mxPoint x="445" y="209.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-25" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.216;entryY=0.125;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RWkT_HldE0pe_v-NqP8z-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="455" y="255" as="sourcePoint" />
+            <mxPoint x="453" y="331" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-28" value="" style="endArrow=classic;html=1;rounded=0;fontSize=12;startSize=8;endSize=8;curved=1;entryX=0.896;entryY=0.995;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="RWkT_HldE0pe_v-NqP8z-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="586" y="346" as="sourcePoint" />
+            <mxPoint x="591" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RWkT_HldE0pe_v-NqP8z-30" value="Native COAP Request Processed Using COAP/DTLS Stack which is now part of MNC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="460" y="287" width="126" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
