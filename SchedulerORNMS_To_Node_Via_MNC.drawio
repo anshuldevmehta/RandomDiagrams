@@ -177,7 +177,7 @@
           <mxGeometry x="-30" y="6.003622291021674" width="230" height="258" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-9" value="MNC Client library is used to convert request/response to COAP Kafka (JSON) and vice versa" style="rounded=1;whiteSpace=wrap;html=1;rotation=90;" parent="-2E1QXH2jdcxHHGQY5Td-1" vertex="1">
-          <mxGeometry x="-57" y="69.80377708978328" width="120" height="59.108359133126925" as="geometry" />
+          <mxGeometry x="-64.56" y="65.28" width="123.04" height="71.2" as="geometry" />
         </mxCell>
         <mxCell id="RWkT_HldE0pe_v-NqP8z-14" value="COAP Request (Not JSON)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" parent="-2E1QXH2jdcxHHGQY5Td-1" vertex="1">
           <mxGeometry x="87" y="69.80377708978328" width="110" height="23.962848297213622" as="geometry" />
